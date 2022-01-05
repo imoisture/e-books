@@ -118,6 +118,6 @@ A: 目前已知的可能出现的兼容性问题有2个：
 
    2.需要额外把llvm的依赖包路径加入到LD_LIBRARY_PATH中去。 假设你的MagicMind wheel是old-abi制作出来的，则按照如下方法设置：
 
-     :: shell
+   .. code:: shell
 
-         export LD_LIBRARY_PATH=YOUR_LOCAL_PATH/neuware_home/lib64:YOUR_LOCAL_PATH/neuware_home/lib/llvm-mm-cxx11-old-abi/lib/:/usr/lib/python3.7/site-packages/magicmind
+      export LD_LIBRARY_PATH=YOUR_LOCAL_PATH/neuware_home/lib64:YOUR_LOCAL_PATH/neuware_home/lib/llvm-mm-cxx11-old-abi/lib/:/usr/lib/python3.7/site-packages/magicmind
