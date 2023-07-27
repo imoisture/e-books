@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 file_hub/sd_2.1_base_gpu_results.tar.gz filter=lfs diff=lfs merge=lfs -text
+file_hub/select_20_gpu_imgs.tar.gz filter=lfs diff=lfs merge=lfs -text
